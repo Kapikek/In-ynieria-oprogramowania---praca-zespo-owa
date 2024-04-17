@@ -5,9 +5,10 @@ namespace diagram_System_IO {
 	class Platnosc {
 
 	private:
-		unsigned int ID;
-		float amount;
-		Date date;
+		float kwota;
+		Date dataWystawienia;
+		Date dataZaplaty;
+		bool zaplacona;
 	};
 }
 

@@ -5,11 +5,11 @@ namespace diagram_System_IO {
 	class Pracownik : diagram_System_IO::Osoba {
 
 	private:
-		Date HiringDate;
-		String Education;
-		String BillingNumber;
-		float MonthlySalary;
-		float Bonuses;
+		Date dataZatrudnienia;
+		String wyksztalcenie;
+		String numerKonta;
+		float wyplata;
+		float premia;
 	};
 }
 

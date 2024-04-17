@@ -4,10 +4,20 @@
 namespace diagram_System_IO {
 	class Klient : diagram_System_IO::Osoba {
 
-	private:
-		unsigned int ID;
-		float CreditLimit;
-		unsigned int ID_Group;
+	public:
+		float limitKredytowy;
+
+		void stworzKonto();
+
+		void dolaczDoGrupy();
+
+		void opuscGrupe();
+
+		void treningIndywidualny();
+
+		void zlozSkarge();
+
+		void wyswietlRachunki();
 	};
 }
 
