@@ -4,8 +4,14 @@
 namespace diagram_System_IO {
 	class Trener : diagram_System_IO::Pracownik {
 
-	private:
-		unsigned int ID;
+	public:
+		int cenaTreninguIndywidualnego;
+
+		void dodajDoGrupy();
+
+		void zmienHarmonogramGrupy();
+
+		void zmienHarmonogramTrenera();
 	};
 }
 

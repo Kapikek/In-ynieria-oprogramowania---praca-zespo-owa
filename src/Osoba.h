@@ -5,11 +5,14 @@ namespace diagram_System_IO {
 	class Osoba {
 
 	private:
-		String FirstName;
-		String LastName;
-		String Address;
-		String Email;
-		String PhoneNumber;
+		String imie;
+		String nazwisko;
+		String adres;
+		String email;
+		String numerTelefonu;
+
+	public:
+		void wyswietlHarmonogram();
 	};
 }
 
