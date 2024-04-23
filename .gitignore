@@ -3,6 +3,7 @@
 
 #ignore temp files
 *temp*
+*.tmp
 
 #ignore lock files
 *~lock*
