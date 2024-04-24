@@ -8,3 +8,6 @@
 #ignore lock files
 *~lock*
 *.lck
+
+#ignore ~$ file
+~$*
