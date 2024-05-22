@@ -5,8 +5,8 @@ namespace diagram_System_IO {
 	class Harmonogram {
 
 	private:
-		Date data;
-		Time dlugosc;
+		DateTime dataStart;
+		DateTime dataKoniec;
 	};
 }
 
