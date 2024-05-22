@@ -2,14 +2,17 @@
 #define PRACOWNIK_H
 
 namespace diagram_System_IO {
-	class Pracownik : diagram_System_IO::Osoba {
+	class Pracownik : diagram_System_IO::Konto {
 
 	private:
 		Date dataZatrudnienia;
 		String wyksztalcenie;
 		String numerKonta;
-		float wyplata;
-		float premia;
+
+	public:
+		void wyswietlKlientow();
+
+		void dodajOgloszenie();
 	};
 }
 

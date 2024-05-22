@@ -2,10 +2,13 @@
 #define KLIENT_H
 
 namespace diagram_System_IO {
-	class Klient : diagram_System_IO::Osoba {
+	class Klient : diagram_System_IO::Konto {
 
-	public:
+	private:
 		float limitKredytowy;
+		String status;
+		String wniosek;
+	public:
 
 		void stworzKonto();
 
