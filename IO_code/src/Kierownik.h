@@ -1,21 +1,22 @@
 #ifndef KIEROWNIK_H
 #define KIEROWNIK_H
+#include "Base.h"
+#include "Pracownik.h"
 
-namespace diagram_System_IO {
-	class Kierownik : diagram_System_IO::Pracownik {
+class Kierownik : public Pracownik {
 
 
-	public:
-		void dodajPracownika();
+public:
+    void dodajPracownika();
 
-		void usunPracownika();
+    void usunPracownika();
 
-		void zablokujKlienta();
+    void zablokujKlienta();
 
-		void wyswietlRaport();
+    void wyswietlRaport();
 
-		void zmienHarmonogramGrupy();
-	};
-}
+    void zmienHarmonogramGrupy();
+};
+
 
 #endif

@@ -1,27 +1,27 @@
 #ifndef KLIENT_H
 #define KLIENT_H
+#include "Base.h"
+#include "Konto.h"
 
-namespace diagram_System_IO {
-	class Klient : diagram_System_IO::Konto {
+class Klient : private Konto {
 
-	private:
-		float limitKredytowy;
-		String status;
-		String wniosek;
-	public:
+private:
+    float limitKredytowy;
+    std::string status;
+    std::string wniosek;
+public:
 
-		void stworzKonto();
+    void stworzKonto();
 
-		void dolaczDoGrupy();
+    void dolaczDoGrupy();
 
-		void opuscGrupe();
+    void opuscGrupe();
 
-		void treningIndywidualny();
+    void treningIndywidualny();
 
-		void zlozSkarge();
+    void zlozSkarge();
 
-		void wyswietlRachunki();
-	};
-}
+    void wyswietlRachunki();
+};
 
 #endif

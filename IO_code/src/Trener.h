@@ -1,18 +1,17 @@
 #ifndef TRENER_H
 #define TRENER_H
+#include "Pracownik.h"
 
-namespace diagram_System_IO {
-	class Trener : diagram_System_IO::Pracownik {
+class Trener : private Pracownik {
 
-	public:
-		int cenaTreninguIndywidualnego;
+public:
+    int cenaTreninguIndywidualnego;
 
-		void dodajDoGrupy();
+    void dodajDoGrupy();
 
-		void zmienHarmonogramGrupy();
+    void zmienHarmonogramGrupy();
 
-		void zmienHarmonogramTrenera();
-	};
-}
+    void zmienHarmonogramTrenera();
+};
 
 #endif

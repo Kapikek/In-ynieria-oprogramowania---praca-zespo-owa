@@ -24,6 +24,9 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="src/Archiwum.h" />
+		<Unit filename="src/Base.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="src/Grupa.h" />
 		<Unit filename="src/Harmonogram.h" />
 		<Unit filename="src/HarmonogramGrupy.h" />
@@ -42,6 +45,7 @@
 		<Unit filename="src/Pracownik.h" />
 		<Unit filename="src/Rachunek.h" />
 		<Unit filename="src/Raport.h" />
+		<Unit filename="src/Structs.h" />
 		<Unit filename="src/Trener.cpp" />
 		<Unit filename="src/Trener.h" />
 		<Unit filename="src/main.cpp" />

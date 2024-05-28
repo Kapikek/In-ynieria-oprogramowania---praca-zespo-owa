@@ -1,11 +1,11 @@
 #include "Pracownik.h"
 
-void diagram_System_IO::Pracownik::wyswietlKlientow() {
+void Pracownik::wyswietlKlientow() {
 	// TODO - implement Pracownik::wyswietlKlientow
 	throw "Not yet implemented";
 }
 
-void diagram_System_IO::Pracownik::dodajOgloszenie() {
+void Pracownik::dodajOgloszenie() {
 	// TODO - implement Pracownik::dodajOgloszenie
 	throw "Not yet implemented";
 }

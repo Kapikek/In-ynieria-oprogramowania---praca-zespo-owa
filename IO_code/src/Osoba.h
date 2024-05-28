@@ -1,19 +1,18 @@
 #ifndef OSOBA_H
 #define OSOBA_H
+#include "Base.h"
+class Osoba {
 
-namespace diagram_System_IO {
-	class Osoba {
+private:
+    std::string imie;
+    std::string nazwisko;
+    std::string adres;
+    std::string email;
+    std::string numerTelefonu;
 
-	private:
-		String imie;
-		String nazwisko;
-		String adres;
-		String email;
-		String numerTelefonu;
+public:
+    void wyswietlHarmonogram();
+};
 
-	public:
-		void wyswietlHarmonogram();
-	};
-}
 
 #endif

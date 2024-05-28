@@ -3,9 +3,9 @@
 
 namespace diagram_System_IO {
 	class Grupa {
-	
+
 	private:
-		String nazwa;
+		std::string nazwa;
 	};
 }
 

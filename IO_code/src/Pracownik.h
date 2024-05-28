@@ -1,19 +1,19 @@
 #ifndef PRACOWNIK_H
 #define PRACOWNIK_H
+#include "Base.h"
+#include "Konto.h"
 
-namespace diagram_System_IO {
-	class Pracownik : diagram_System_IO::Konto {
+class Pracownik : Konto {
 
-	private:
-		Date dataZatrudnienia;
-		String wyksztalcenie;
-		String numerKonta;
+private:
+    Date dataZatrudnienia;
+    std::string wyksztalcenie;
+    std::string numerKonta;
 
-	public:
-		void wyswietlKlientow();
+public:
+    void wyswietlKlientow();
 
-		void dodajOgloszenie();
-	};
-}
+    void dodajOgloszenie();
+};
 
 #endif

@@ -5,7 +5,7 @@ namespace diagram_System_IO {
 	class Rachunek {
 
 	private:
-		String komentarz;
+		std::string komentarz;
 	};
 }
 

@@ -1,15 +1,14 @@
 #ifndef OGLOSZENIE_H
 #define OGLOSZENIE_H
+#include "Base.h"
 
-namespace diagram_System_IO {
-	class Ogloszenie {
+class Ogloszenie {
 
-	private:
-		date dataDodania;
-		String tytul;
-		String autor;
-		String tresc;
-	};
-}
+private:
+    Date dataDodania;
+    std::string tytul;
+    std::string autor;
+    std::string tresc;
+};
 
 #endif

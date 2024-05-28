@@ -1,26 +1,26 @@
 #include "Kierownik.h"
 
-void diagram_System_IO::Kierownik::dodajPracownika() {
+void Kierownik::dodajPracownika() {
 	// TODO - implement Kierownik::dodajPracownika
 	throw "Not yet implemented";
 }
 
-void diagram_System_IO::Kierownik::usunPracownika() {
+void Kierownik::usunPracownika() {
 	// TODO - implement Kierownik::usunPracownika
 	throw "Not yet implemented";
 }
 
-void diagram_System_IO::Kierownik::zablokujKlienta() {
+void Kierownik::zablokujKlienta() {
 	// TODO - implement Kierownik::zablokujKlienta
 	throw "Not yet implemented";
 }
 
-void diagram_System_IO::Kierownik::wyswietlRaport() {
+void Kierownik::wyswietlRaport() {
 	// TODO - implement Kierownik::wyswietlRaport
 	throw "Not yet implemented";
 }
 
-void diagram_System_IO::Kierownik::zmienHarmonogramGrupy() {
+void Kierownik::zmienHarmonogramGrupy() {
 	// TODO - implement Kierownik::zmienHarmonogramGrupy
 	throw "Not yet implemented";
 }

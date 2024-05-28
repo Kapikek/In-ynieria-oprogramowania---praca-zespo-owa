@@ -1,16 +1,16 @@
 #include "Trener.h"
 
-void diagram_System_IO::Trener::dodajDoGrupy() {
+void Trener::dodajDoGrupy() {
 	// TODO - implement Trener::dodajDoGrupy
 	throw "Not yet implemented";
 }
 
-void diagram_System_IO::Trener::zmienHarmonogramGrupy() {
+void Trener::zmienHarmonogramGrupy() {
 	// TODO - implement Trener::zmienHarmonogramGrupy
 	throw "Not yet implemented";
 }
 
-void diagram_System_IO::Trener::zmienHarmonogramTrenera() {
+void Trener::zmienHarmonogramTrenera() {
 	// TODO - implement Trener::zmienHarmonogramTrenera
 	throw "Not yet implemented";
 }

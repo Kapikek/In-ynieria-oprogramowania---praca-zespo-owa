@@ -1,15 +1,14 @@
 #ifndef ARCHIWUM_H
 #define ARCHIWUM_H
+#include "Base.h"
+#include "Structs.h"
+class Archiwum {
 
-namespace diagram_System_IO {
-	class Archiwum {
-
-	private:
-		String opisZmiany;
-		zmianaEnum zmiana;
-		String nazwa;
-		Date data;
-	};
-}
+private:
+    std::string opisZmiany;
+    zmianaEnum zmiana;
+    std::string nazwa;
+    Date data;
+};
 
 #endif

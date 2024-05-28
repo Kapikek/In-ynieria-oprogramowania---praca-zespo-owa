@@ -1,22 +1,20 @@
 #ifndef KONTO_H
 #define KONTO_H
+#include "Base.h"
+class Konto {
 
-namespace diagram_System_IO {
-	class Konto {
+private:
+    std::string imie;
+    std::string nazwisko;
+    std::string adres;
+    std::string email;
+    std::string numerTelefonu;
+    std::string nazwaKonta;
+    std::string haslo;
+    std::string status;
 
-	private:
-		String imie;
-		String nazwisko;
-		String adres;
-		String email;
-		String numerTelefonu;
-		String nazwaKonta;
-		String haslo;
-		String status;
-
-	public:
-		void wyswietlHarmonogram();
-	};
-}
+public:
+    void wyswietlHarmonogram();
+};
 
 #endif
