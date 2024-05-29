@@ -1,5 +1,5 @@
-#ifndef RAPORT_H
-#define RAPORT_H
+#pragma once
+#include "Base.h"
 
 class Raport {
 
@@ -9,5 +9,3 @@ private:
     Date odDnia;
     Date doDnia;
 };
-
-#endif

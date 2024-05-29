@@ -1,5 +1,4 @@
-#ifndef HARMONOGRAM_H
-#define HARMONOGRAM_H
+#pragma once
 #include "Base.h"
 
 namespace diagram_System_IO {
@@ -10,5 +9,3 @@ namespace diagram_System_IO {
 		DateTime dataKoniec;
 	};
 }
-
-#endif

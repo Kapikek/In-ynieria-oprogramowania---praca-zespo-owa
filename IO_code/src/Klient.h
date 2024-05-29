@@ -1,5 +1,4 @@
-#ifndef KLIENT_H
-#define KLIENT_H
+#pragma once
 #include "Base.h"
 #include "Konto.h"
 
@@ -23,5 +22,3 @@ public:
 
     void wyswietlRachunki();
 };
-
-#endif

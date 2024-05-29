@@ -1,5 +1,4 @@
-#ifndef OGLOSZENIE_H
-#define OGLOSZENIE_H
+#pragma once
 #include "Base.h"
 
 class Ogloszenie {
@@ -10,5 +9,3 @@ private:
     std::string autor;
     std::string tresc;
 };
-
-#endif

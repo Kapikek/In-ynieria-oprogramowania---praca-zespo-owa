@@ -1,5 +1,4 @@
-#ifndef KIEROWNIK_H
-#define KIEROWNIK_H
+#pragma once
 #include "Base.h"
 #include "Pracownik.h"
 
@@ -17,6 +16,3 @@ public:
 
     void zmienHarmonogramGrupy();
 };
-
-
-#endif

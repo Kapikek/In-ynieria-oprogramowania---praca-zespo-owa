@@ -1,5 +1,4 @@
-#ifndef PRACOWNIK_H
-#define PRACOWNIK_H
+#pragma once
 #include "Base.h"
 #include "Konto.h"
 
@@ -15,5 +14,3 @@ public:
 
     void dodajOgloszenie();
 };
-
-#endif

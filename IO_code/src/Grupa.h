@@ -1,6 +1,4 @@
-#ifndef GRUPA_H
-#define GRUPA_H
-
+#pragma once
 namespace diagram_System_IO {
 	class Grupa {
 
@@ -9,4 +7,3 @@ namespace diagram_System_IO {
 	};
 }
 
-#endif
