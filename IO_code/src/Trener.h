@@ -1,5 +1,4 @@
-#ifndef TRENER_H
-#define TRENER_H
+#pragma once
 #include "Pracownik.h"
 
 class Trener : private Pracownik {
@@ -13,5 +12,3 @@ public:
 
     void zmienHarmonogramTrenera();
 };
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef KONTO_H
-#define KONTO_H
+#pragma once
 #include "Base.h"
 class Konto {
 
@@ -16,5 +15,3 @@ private:
 public:
     void wyswietlHarmonogram();
 };
-
-#endif

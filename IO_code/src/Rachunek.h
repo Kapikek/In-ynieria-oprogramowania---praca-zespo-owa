@@ -1,5 +1,5 @@
-#ifndef RACHUNEK_H
-#define RACHUNEK_H
+#pragma once
+#include "Base.h"
 
 namespace diagram_System_IO {
 	class Rachunek {
@@ -9,4 +9,3 @@ namespace diagram_System_IO {
 	};
 }
 
-#endif

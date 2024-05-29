@@ -1,5 +1,4 @@
-#ifndef ARCHIWUM_H
-#define ARCHIWUM_H
+#pragma once
 #include "Base.h"
 #include "Structs.h"
 class Archiwum {
@@ -10,5 +9,3 @@ private:
     std::string nazwa;
     Date data;
 };
-
-#endif

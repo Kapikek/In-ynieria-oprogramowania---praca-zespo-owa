@@ -1,5 +1,4 @@
-#ifndef OSOBA_H
-#define OSOBA_H
+#pragma once
 #include "Base.h"
 class Osoba {
 
@@ -13,6 +12,3 @@ private:
 public:
     void wyswietlHarmonogram();
 };
-
-
-#endif

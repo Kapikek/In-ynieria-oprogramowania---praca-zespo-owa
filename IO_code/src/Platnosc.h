@@ -1,5 +1,5 @@
-#ifndef PLATNOSC_H
-#define PLATNOSC_H
+#pragma once
+#include "Base.h"
 
 namespace diagram_System_IO {
 	class Platnosc {
@@ -11,5 +11,3 @@ namespace diagram_System_IO {
 		bool zaplacona;
 	};
 }
-
-#endif
