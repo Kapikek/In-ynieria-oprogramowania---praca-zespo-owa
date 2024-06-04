@@ -10,6 +10,8 @@ private:
     std::string wniosek;
 public:
 
+    void wyswietlDane();
+
     void stworzKonto();
 
     void dolaczDoGrupy();
