@@ -1,29 +1,23 @@
 #include "Klient.h"
 void Klient::wyswietlDane()
 {
-    std::cout << this->ID_konta
-    << " " << this->imie
-    << " " << this->nazwisko
-    << " " << this->adres
-    << " " << this->email
-    << " " << this->numerTelefonu
-    << " " << this->nazwaKonta
-    << " " << this->haslo
-    << " " << this->acc_status
-    <<std::endl;
+    std::cout << "Klient: ";
+    Konto::wyswietlDane();
 }
 
-void Klient::stworzKonto() {
-    this->ID_konta = ++Konto::ID_cnt;
-    this->imie = "Jan";
-    this->nazwisko = "Nowak";
-    this->adres = "ul. Mazowiecka 12";
-    this->email = "jan.nowak@fakemail.pl";
-    this->numerTelefonu = "111222333";
-    this->nazwaKonta = "JN_ACC";
-    this->haslo = "password";
-    this->acc_status = "active";
+void Klient::stworzKonto(std::string imie, std::string nazwisko, std::string adres,
+    std::string email, std::string numerTelefonu, std::string nazwaKonta, std::string haslo)
+{
+    Konto::stworzKonto(imie, nazwisko, adres,
+    email, numerTelefonu, nazwaKonta, haslo);
+    klienci.push_back(this);
+}
 
+void Klient::wyswietlListeKlientow() {
+    if (klienci.empty())
+        return;
+    for (auto item : klienci)
+        item->wyswietlDane();
 }
 
 void Klient::dolaczDoGrupy() {

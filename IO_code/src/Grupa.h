@@ -1,12 +1,15 @@
 #pragma once
-namespace diagram_System_IO {
-	class Grupa {
+#include "Base.h"
+#include "Klient.h"
+#include "Trener.h"
 
-	private:
-	    int ID;
-	    std::vector<Klient*> lista_klientow;
-	    Trener* trener_prowadzacy;
-		std::string nazwa;
-	};
-}
+class Grupa {
+private:
+    int ID;
+    std::vector<Klient*> lista_klientow;
+    Trener* trener_prowadzacy;
+    std::string nazwa;
+public:
+    void listMembers();
+};
 

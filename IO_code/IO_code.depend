@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1717521165 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
+1717536647 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
 	<iostream>
 	"Base.h"
 	"Klient.h"
@@ -29,17 +29,17 @@
 	"Base.h"
 	"Konto.h"
 
-1717520735 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
+1717535551 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
 	"Base.h"
 
-1717521506 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.cpp
+1717537201 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.cpp
 	"Klient.h"
 
-1717520435 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
+1717535566 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
 	"Base.h"
 	"Konto.h"
 
-1717521134 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.cpp
+1717535560 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.cpp
 	"Konto.h"
 
 1716928485 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.cpp
@@ -50,4 +50,12 @@
 
 1717517886 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
 	"Pracownik.h"
+
+1717533882 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.cpp
+	"Grupa.h"
+
+1717534219 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.h
+	"Base.h"
+	"Klient.h"
+	"Trener.h"
 
