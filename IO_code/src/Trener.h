@@ -7,7 +7,6 @@ class Grupa;
 class Trener : public Pracownik {
 private:
     Grupa* grupa;
-
 public:
     int cenaTreninguIndywidualnego;
 

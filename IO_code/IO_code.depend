@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1717591903 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
+1717612515 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
 	<iostream>
 	"Base.h"
 	"Klient.h"
@@ -24,13 +24,14 @@
 1717517886 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\osoba.h
 	"Base.h"
 
-1717591536 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.cpp
+1717612333 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.cpp
 	"Kierownik.h"
 
-1717591471 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.h
+1717592267 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.h
 	"Base.h"
 	"Pracownik.h"
 	"Trener.h"
+	"Grupa.h"
 
 1717587725 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.h
 	"Base.h"
@@ -52,18 +53,18 @@
 1716928485 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.cpp
 	"Pracownik.h"
 
-1717590127 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.cpp
+1717592893 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.cpp
 	"Trener.h"
 
-1717589309 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
+1717610392 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
 	"Pracownik.h"
 	"Grupa.h"
 	"Konto.h"
 
-1717589772 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.cpp
+1717611881 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.cpp
 	"Grupa.h"
 
-1717589756 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.h
+1717611891 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.h
 	"Base.h"
 	"Klient.h"
 	"Trener.h"

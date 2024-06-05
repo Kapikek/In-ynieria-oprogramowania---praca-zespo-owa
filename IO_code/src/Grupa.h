@@ -8,11 +8,15 @@ class Trener;
 class Grupa {
 private:
     int ID;
-    static std::vector<Klient*> lista_klientow;
+    std::vector<Klient*> lista_klientow;
     Trener* trener_prowadzacy;
     std::string nazwa;
 public:
-    static std::vector<Klient*>* accessList();
+    std::vector<Klient*>* accessList();
+
+    Trener** accessTrainer();
+
+    void readT();
 
     void wyswietlListeKlientow();
 };

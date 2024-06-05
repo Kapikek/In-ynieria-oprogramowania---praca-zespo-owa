@@ -27,6 +27,7 @@
 		<Unit filename="src/Base.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="src/Grupa.cpp" />
 		<Unit filename="src/Grupa.h" />
 		<Unit filename="src/Harmonogram.h" />
 		<Unit filename="src/HarmonogramGrupy.h" />
@@ -38,8 +39,6 @@
 		<Unit filename="src/Konto.cpp" />
 		<Unit filename="src/Konto.h" />
 		<Unit filename="src/Ogloszenie.h" />
-		<Unit filename="src/Osoba.cpp" />
-		<Unit filename="src/Osoba.h" />
 		<Unit filename="src/Platnosc.h" />
 		<Unit filename="src/Pracownik.cpp" />
 		<Unit filename="src/Pracownik.h" />
