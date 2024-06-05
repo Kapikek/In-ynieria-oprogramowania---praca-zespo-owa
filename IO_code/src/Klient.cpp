@@ -1,4 +1,5 @@
 #include "Klient.h"
+
 void Klient::wyswietlDane()
 {
     std::cout << "Klient: ";
@@ -20,9 +21,15 @@ void Klient::wyswietlListeKlientow() {
         item->wyswietlDane();
 }
 
-void Klient::dolaczDoGrupy() {
-	// TODO - implement Klient::dolaczDoGrupy
-	throw "Not yet implemented";
+void Klient::dolaczDoGrupy(unsigned int ID_grupy, std::string d, std::string m, std::string y)
+{
+    wniosek = Wniosek(DODANIE_DO_GRUPY, this->ID_konta, ID_grupy, Date(d, m, y));
+}
+
+const Wniosek& Klient::getWniosek()
+{
+    if (wniosek.init)
+        return wniosek;
 }
 
 void Klient::opuscGrupe() {
