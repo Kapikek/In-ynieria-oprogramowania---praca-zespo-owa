@@ -2,7 +2,7 @@
 #include "Base.h"
 #include "Konto.h"
 
-class Pracownik : Konto {
+class Pracownik : public Konto {
 
 private:
     Date dataZatrudnienia;
@@ -13,4 +13,5 @@ public:
     void wyswietlKlientow();
 
     void dodajOgloszenie();
+
 };

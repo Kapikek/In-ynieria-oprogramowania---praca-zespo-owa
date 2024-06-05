@@ -3,13 +3,17 @@
 #include "Klient.h"
 #include "Trener.h"
 
+class Trener;
+
 class Grupa {
 private:
     int ID;
-    std::vector<Klient*> lista_klientow;
+    static std::vector<Klient*> lista_klientow;
     Trener* trener_prowadzacy;
     std::string nazwa;
 public:
-    void listMembers();
+    static std::vector<Klient*>* accessList();
+
+    void wyswietlListeKlientow();
 };
 

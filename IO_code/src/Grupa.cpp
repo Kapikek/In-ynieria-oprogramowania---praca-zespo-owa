@@ -1,6 +1,15 @@
 #include "Grupa.h"
 
-void Grupa::listMembers() {
-	// TODO - implement Kierownik::zmienHarmonogramGrupy
-	throw "Not yet implemented";
+std::vector<Klient*>* Grupa::accessList()
+{
+return &lista_klientow;
+}
+
+void Grupa::wyswietlListeKlientow()
+{
+
+    if (lista_klientow.empty())
+        return;
+    for (auto item : lista_klientow)
+        item->wyswietlDane();
 }

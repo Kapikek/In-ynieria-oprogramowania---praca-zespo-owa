@@ -6,6 +6,9 @@ class Kierownik : public Pracownik {
 
 
 public:
+
+    void przypiszDoGrupy();
+
     void dodajPracownika();
 
     void usunPracownika();

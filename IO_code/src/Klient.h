@@ -14,6 +14,7 @@ struct Wniosek
     unsigned int klient_ID;
     unsigned int grupa_ID;
     Date data_zlozenia;
+    static std::vector<Wniosek*> wnioski;
 
     Wniosek() {}
 
@@ -24,6 +25,7 @@ struct Wniosek
         this->grupa_ID = grupa_ID;
         this->data_zlozenia = data_zlozenia;
         init = true;
+        wnioski.push_back(this);
     }
 
 };

@@ -1,8 +1,8 @@
 #include "Trener.h"
 
-void Trener::dodajDoGrupy() {
-	// TODO - implement Trener::dodajDoGrupy
-	throw "Not yet implemented";
+void Trener::dodajDoGrupy(Klient& klient, Grupa& grupa) {
+    auto vec = Grupa::accessList();
+    vec->push_back(&klient);
 }
 
 void Trener::zmienHarmonogramGrupy() {
