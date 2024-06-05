@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1717612515 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
-	<iostream>
+1717611881 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.cpp
+	"Grupa.h"
+
+1717611891 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.h
 	"Base.h"
 	"Klient.h"
-	"Grupa.h"
 	"Trener.h"
-	"Kierownik.h"
 
 1717587424 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\base.h
 	<iostream>
@@ -18,11 +18,21 @@
 	<iostream>
 	<ctime>
 
-1716928485 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\osoba.cpp
-	"Osoba.h"
-
-1717517886 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\osoba.h
+1717587176 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
 	"Base.h"
+	"Konto.h"
+
+1717535551 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
+	"Base.h"
+
+1717610392 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
+	"Pracownik.h"
+	"Grupa.h"
+	"Konto.h"
+
+1717587725 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.h
+	"Base.h"
+	"Konto.h"
 
 1717612333 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.cpp
 	"Kierownik.h"
@@ -33,19 +43,8 @@
 	"Trener.h"
 	"Grupa.h"
 
-1717587725 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.h
-	"Base.h"
-	"Konto.h"
-
-1717535551 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
-	"Base.h"
-
 1717573311 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.cpp
 	"Klient.h"
-
-1717587176 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
-	"Base.h"
-	"Konto.h"
 
 1717535560 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.cpp
 	"Konto.h"
@@ -54,18 +53,5 @@
 	"Pracownik.h"
 
 1717592893 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.cpp
-	"Trener.h"
-
-1717610392 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
-	"Pracownik.h"
-	"Grupa.h"
-	"Konto.h"
-
-1717611881 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.cpp
-	"Grupa.h"
-
-1717611891 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.h
-	"Base.h"
-	"Klient.h"
 	"Trener.h"
 
