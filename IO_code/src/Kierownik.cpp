@@ -1,8 +1,9 @@
 #include "Kierownik.h"
 
-void Kierownik::dodajPracownika() {
-	// TODO - implement Kierownik::dodajPracownika
-	throw "Not yet implemented";
+void Kierownik::dodajPracownika(Trener& trener, std::string imie, std::string nazwisko, std::string adres,
+    std::string email, std::string numerTelefonu, std::string nazwaKonta, std::string haslo) {
+    trener.stworzKonto(imie, nazwisko, adres,
+    email, numerTelefonu, nazwaKonta, haslo);
 }
 
 void Kierownik::usunPracownika() {
