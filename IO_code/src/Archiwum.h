@@ -1,6 +1,5 @@
 #pragma once
 #include "Base.h"
-#include "Structs.h"
 class Archiwum {
 
 private:
