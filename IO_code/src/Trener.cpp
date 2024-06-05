@@ -1,7 +1,7 @@
 #include "Trener.h"
 
 void Trener::dodajDoGrupy(Klient& klient, Grupa& grupa) {
-    auto vec = Grupa::accessList();
+    auto vec = grupa.accessList();
     vec->push_back(&klient);
 }
 
