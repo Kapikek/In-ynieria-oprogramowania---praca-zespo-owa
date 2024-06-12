@@ -1,5 +1,11 @@
 #include "Grupa.h"
 
+Grupa::Grupa(unsigned int ID, std::string nazwa)
+{
+    this->ID = ID;
+    this->nazwa = nazwa;
+}
+
 std::vector<Klient*>* Grupa::accessList()
 {
     return &lista_klientow;
@@ -22,3 +28,8 @@ void Grupa::wyswietlListeKlientow()
     for (auto item : lista_klientow)
         item->wyswietlDane();
 }
+
+ unsigned int Grupa::wyswietlID()
+ {
+     return ID;
+ }

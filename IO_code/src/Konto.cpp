@@ -38,3 +38,13 @@ void Konto::wyswietlDane()
     << " - " << this->acc_status
     << std::endl;
 }
+
+std::string* Konto::getAccStatus()
+{
+    return &acc_status;
+}
+
+std::string Konto::wypiszStatus()
+{
+    return acc_status;
+}

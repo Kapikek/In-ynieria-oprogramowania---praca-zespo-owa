@@ -23,13 +23,12 @@ void Klient::wyswietlListeKlientow() {
 
 void Klient::dolaczDoGrupy(unsigned int ID_grupy, std::string d, std::string m, std::string y)
 {
-    wniosek = Wniosek(DODANIE_DO_GRUPY, this->ID_konta, ID_grupy, Date(d, m, y));
+    wnioski_klienta.push_back(Wniosek(DODANIE_DO_GRUPY, this->ID_konta, ID_grupy, Date(d, m, y)));
 }
 
-const Wniosek& Klient::getWniosek()
+std::vector<Wniosek>* Klient::getWniosek()
 {
-    if (wniosek.init)
-        return wniosek;
+        return &wnioski_klienta;
 }
 
 void Klient::opuscGrupe() {
