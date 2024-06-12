@@ -1,5 +1,11 @@
 #include "Kierownik.h"
 
+void Kierownik::wyswietlDane()
+{
+    std::cout << "Kierownik: ";
+    Konto::wyswietlDane();
+}
+
 void Kierownik::przypiszDoGrupy(Trener& trener, Grupa& grupa)
 {
     Trener** trn = grupa.accessTrainer();
@@ -13,14 +19,25 @@ void Kierownik::dodajPracownika(Trener& trener, std::string imie, std::string na
     email, numerTelefonu, nazwaKonta, haslo);
 }
 
-void Kierownik::usunPracownika() {
-	// TODO - implement Kierownik::usunPracownika
-	throw "Not yet implemented";
+void Kierownik::usunPracownika(Trener& trener) {
+    std::string* status = trener.getAccStatus();
+    *status = "removed";
 }
 
-void Kierownik::zablokujKlienta() {
-	// TODO - implement Kierownik::zablokujKlienta
-	throw "Not yet implemented";
+
+void Kierownik::wyslijNaUrlop(Trener& trener) {
+    std::string* status = trener.getAccStatus();
+    *status = "on_vacation";
+}
+
+void Kierownik::zakonczUrlop(Trener& trener) {
+    std::string* status = trener.getAccStatus();
+    *status = "active";
+}
+
+void Kierownik::zablokujKlienta(Klient& klient) {
+	std::string* status = klient.getAccStatus();
+    *status = "blocked";
 }
 
 void Kierownik::wyswietlRaport() {

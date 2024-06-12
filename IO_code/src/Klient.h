@@ -4,7 +4,8 @@
 
 enum typ_wniosku
 {
-    DODANIE_DO_GRUPY//coœ jeszcze?
+    DODANIE_DO_GRUPY,
+    TRENING_INDYWIDUALNY
 };
 
 struct Wniosek
@@ -34,7 +35,7 @@ class Klient : public Konto {
 private:
     float limitKredytowy;
     std::string status;
-    Wniosek wniosek;
+    std::vector<Wniosek> wnioski_klienta;
     static std::vector<Klient*> klienci;
 public:
 
@@ -49,7 +50,7 @@ public:
 
     void dolaczDoGrupy(unsigned int ID_grupy, std::string d, std::string m, std::string y);
 
-    const Wniosek& getWniosek();
+    std::vector<Wniosek>* getWniosek();
 
     void opuscGrupe();
 
