@@ -13,7 +13,7 @@ int main()
     int i = 0;
     Kierownik K_KAMIL;
     Trener  T_MAR_A;
-    Grupa grupa_1, grupa_2;
+    Grupa grupa_1(1, "Grupa_A"), grupa_2(2, "Grupa_B");
     Klient C_JAN_N, C_TOM_K;
 
     K_KAMIL.stworzKonto("Kamil", "Kamil", "ul. Kierownicza 1", "Kamil@fakemail.com", "999 999 999", "KML", "****");
@@ -21,14 +21,16 @@ int main()
     C_TOM_K.stworzKonto("Tom", "Kier", "2015 Flower Ave.", "thomas.k@fakermail.com", "22 33 44 777", "TK2122", "********");
     K_KAMIL.dodajPracownika(T_MAR_A, "Marcin", "Antoni", "ul. Bohaterów Warszawy 2", "marcin.mar@fakemail.com", "3333 22 11 00", "M_A", "*********");
     C_JAN_N.dolaczDoGrupy(1, "05", "06", "2024");
+
 //    T_MAR_A.wyswietlDane();
-    T_MAR_A.dodajDoGrupy(C_TOM_K, grupa_1);
+    T_MAR_A.dodajDoGrupy(C_JAN_N, grupa_1);
     K_KAMIL.przypiszDoGrupy(T_MAR_A, grupa_1);
     grupa_1.wyswietlListeKlientow();
 //    grupa_1.readT();
-    Trener** trn = grupa_1.accessTrainer();
-    (*trn)->wyswietlDane();
-
+//    Trener** trn = grupa_1.accessTrainer();
+//    (*trn)->wyswietlDane();
+//    K_KAMIL.zablokujKlienta(C_JAN_N);
+//    std::cout << C_JAN_N.wypiszStatus() << " " << C_TOM_K.wypiszStatus() << std::endl;
 //    Wniosek w = K_JAN_N.getWniosek(); //-- this works
 //    std::cout << w.data_zlozenia.read() << std::endl;
 

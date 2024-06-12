@@ -18,6 +18,8 @@ public:
     virtual void wyswietlDane();
     virtual void stworzKonto(std::string imie, std::string nazwisko, std::string adres,
     std::string email, std::string numerTelefonu, std::string nazwaKonta, std::string haslo);
+    std::string* getAccStatus();
+    std::string wypiszStatus();
     void wyswietlHarmonogram();
 friend class Klient;
 };

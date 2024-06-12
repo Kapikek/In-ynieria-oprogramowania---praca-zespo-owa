@@ -11,14 +11,20 @@ class Kierownik : public Pracownik {
 
 public:
 
+    void wyswietlDane() override;
+
     void przypiszDoGrupy(Trener& trener, Grupa& grupa);
 
     void dodajPracownika(Trener& trener, std::string imie, std::string nazwisko, std::string adres,
     std::string email, std::string numerTelefonu, std::string nazwaKonta, std::string haslo);
 
-    void usunPracownika();
+    void usunPracownika(Trener& trener);
 
-    void zablokujKlienta();
+    void wyslijNaUrlop(Trener& trener);
+
+    void zakonczUrlop(Trener& trener);
+
+    void zablokujKlienta(Klient& klient);
 
     void wyswietlRaport();
 
