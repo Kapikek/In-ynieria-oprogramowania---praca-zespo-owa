@@ -8,6 +8,7 @@ class Grupa;
 class Trener : public Pracownik {
 private:
     Grupa* grupa;
+    std::vector<Klient*> treningi_indywidualne;
 public:
     void wyswietlDane() override;
 
@@ -15,9 +16,12 @@ public:
 
     void dodajDoGrupy(Klient& klient, Grupa& grupa);
 
+    void treningIndywidualny(Klient& klient);
+
     void zmienHarmonogramGrupy();
 
     void zmienHarmonogramTrenera();
 
     friend class Kierownik;
+
 };

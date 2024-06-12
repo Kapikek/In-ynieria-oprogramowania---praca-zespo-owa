@@ -22,4 +22,6 @@ public:
     std::string wypiszStatus();
     void wyswietlHarmonogram();
 friend class Klient;
+friend class Trener;
+    friend class Kierownik;
 };

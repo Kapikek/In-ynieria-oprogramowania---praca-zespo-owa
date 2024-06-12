@@ -18,14 +18,14 @@
 	<iostream>
 	<ctime>
 
-1718177464 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
+1718179154 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
 	"Base.h"
 	"Konto.h"
 
-1718175254 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
+1718179261 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
 	"Base.h"
 
-1718176544 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
+1718179240 c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
 	"Pracownik.h"
 	"Grupa.h"
 	"Konto.h"
@@ -56,7 +56,7 @@
 1718176764 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.cpp
 	"Trener.h"
 
-1718177123 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
+1718178552 source:c:\users\kuba\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
 	<iostream>
 	"Base.h"
 	"Klient.h"
