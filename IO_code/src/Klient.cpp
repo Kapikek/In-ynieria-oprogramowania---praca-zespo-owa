@@ -36,9 +36,9 @@ void Klient::opuscGrupe() {
 	throw "Not yet implemented";
 }
 
-void Klient::treningIndywidualny() {
-	// TODO - implement Klient::treningIndywidualny
-	throw "Not yet implemented";
+void Klient::treningIndywidualny(unsigned int ID_trenera, std::string d, std::string m, std::string y)
+{
+    wnioski_klienta.push_back(Wniosek(ZAPISANIE_NA_TRENING, this->ID_konta, ID_trenera, Date(d, m, y)));
 }
 
 void Klient::zlozSkarge() {

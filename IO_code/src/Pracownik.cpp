@@ -1,8 +1,7 @@
 #include "Pracownik.h"
 
-void Pracownik::wyswietlKlientow() {
-	// TODO - implement Pracownik::wyswietlKlientow
-	throw "Not yet implemented";
+void Pracownik::wyswietlListeKlientow() {
+    Klient::wyswietlListeKlientow();
 }
 
 void Pracownik::dodajOgloszenie() {

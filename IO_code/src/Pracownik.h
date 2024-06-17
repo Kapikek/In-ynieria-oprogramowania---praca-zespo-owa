@@ -1,6 +1,9 @@
 #pragma once
 #include "Base.h"
 #include "Konto.h"
+#include "Klient.h"
+
+class Klient;
 
 class Pracownik : public Konto {
 
@@ -10,7 +13,7 @@ private:
     std::string numerKonta;
 
 public:
-    void wyswietlKlientow();
+    void wyswietlListeKlientow();
 
     void dodajOgloszenie();
 

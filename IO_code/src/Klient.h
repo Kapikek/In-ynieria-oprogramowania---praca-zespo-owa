@@ -1,11 +1,11 @@
 #pragma once
 #include "Base.h"
 #include "Konto.h"
-
+#include "Grupa.h"
 enum typ_wniosku
 {
     DODANIE_DO_GRUPY,
-    TRENING_INDYWIDUALNY
+    ZAPISANIE_NA_TRENING
 };
 
 struct Wniosek
@@ -34,12 +34,11 @@ struct Wniosek
 class Klient : public Konto {
 private:
     float limitKredytowy;
+    Grupa *grupa = NULL;
     std::string status;
     std::vector<Wniosek> wnioski_klienta;
     static std::vector<Klient*> klienci;
 public:
-
-    Klient() {}
 
     static void wyswietlListeKlientow();
 
@@ -54,7 +53,7 @@ public:
 
     void opuscGrupe();
 
-    void treningIndywidualny();
+    void treningIndywidualny(unsigned int ID_grupy, std::string d, std::string m, std::string y);
 
     void zlozSkarge();
 

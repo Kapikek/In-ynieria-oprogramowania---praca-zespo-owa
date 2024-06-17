@@ -3,7 +3,7 @@
 class Konto {
 private:
     static unsigned int ID_cnt;
-    int ID_konta;
+    unsigned int ID_konta;
     std::string imie;
     std::string nazwisko;
     std::string adres;
@@ -15,6 +15,7 @@ private:
 
 public:
     static void set_ID_cnt(unsigned int num);
+    virtual unsigned int getID();
     virtual void wyswietlDane();
     virtual void stworzKonto(std::string imie, std::string nazwisko, std::string adres,
     std::string email, std::string numerTelefonu, std::string nazwaKonta, std::string haslo);

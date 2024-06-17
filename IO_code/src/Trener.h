@@ -5,10 +5,11 @@
 #include "Klient.h"
 
 class Grupa;
+
 class Trener : public Pracownik {
 private:
     Grupa* grupa;
-    std::vector<Klient*> treningi_indywidualne;
+    std::vector<Klient*> klienci_indywidualni;
 public:
     void wyswietlDane() override;
 

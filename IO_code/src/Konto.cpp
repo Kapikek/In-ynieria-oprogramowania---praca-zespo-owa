@@ -11,6 +11,11 @@ void Konto::set_ID_cnt(unsigned int num)
     Konto::ID_cnt = num;
 }
 
+unsigned int Konto::getID()
+{
+    return ID_konta;
+}
+
 void Konto::stworzKonto(std::string imie, std::string nazwisko, std::string adres,
     std::string email, std::string numerTelefonu, std::string nazwaKonta, std::string haslo)
 {
