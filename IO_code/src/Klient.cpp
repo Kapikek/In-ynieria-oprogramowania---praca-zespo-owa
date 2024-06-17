@@ -31,9 +31,8 @@ std::vector<Wniosek>* Klient::getWniosek()
         return &wnioski_klienta;
 }
 
-void Klient::opuscGrupe() {
-	// TODO - implement Klient::opuscGrupe
-	throw "Not yet implemented";
+void Klient::opuscGrupe(unsigned int ID_grupy, std::string d, std::string m, std::string y) {
+    wnioski_klienta.push_back(Wniosek(USUNIECIE_Z_GRUPY, this->ID_konta, ID_grupy, Date(d, m, y)));
 }
 
 void Klient::treningIndywidualny(unsigned int ID_trenera, std::string d, std::string m, std::string y)

@@ -3,8 +3,6 @@
 #include "Konto.h"
 #include "Klient.h"
 
-class Klient;
-
 class Pracownik : public Konto {
 
 private:

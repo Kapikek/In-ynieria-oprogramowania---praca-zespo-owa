@@ -1,11 +1,12 @@
 #pragma once
 #include "Base.h"
 #include "Konto.h"
-#include "Grupa.h"
+
 enum typ_wniosku
 {
     DODANIE_DO_GRUPY,
-    ZAPISANIE_NA_TRENING
+    ZAPISANIE_NA_TRENING,
+    USUNIECIE_Z_GRUPY
 };
 
 struct Wniosek
@@ -51,9 +52,9 @@ public:
 
     std::vector<Wniosek>* getWniosek();
 
-    void opuscGrupe();
+    void opuscGrupe(unsigned int ID_grupy, std::string d, std::string m, std::string y);
 
-    void treningIndywidualny(unsigned int ID_grupy, std::string d, std::string m, std::string y);
+    void treningIndywidualny(unsigned int ID_trenera, std::string d, std::string m, std::string y);
 
     void zlozSkarge();
 

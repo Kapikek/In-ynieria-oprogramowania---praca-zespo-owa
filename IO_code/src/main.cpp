@@ -22,11 +22,17 @@ int main()
     C_KAM_K.stworzKonto("Kamil", "Bier", "ul. Zolnierska 111", "kamil.k@fakermail.com", "111 222 333", "KK2122", "********");
     K_KAMIL.dodajPracownika(T_MAR_A, "Marcin", "Antoni", "ul. Bohaterów Warszawy 2", "marcin.mar@fakemail.com", "3333 22 11 00", "M_A", "*********");
     C_JAN_N.dolaczDoGrupy(1, "05", "06", "2024");
-
+    C_KAM_K.dolaczDoGrupy(1, "04", "06", "2024");
+    C_KAM_K.treningIndywidualny(T_MAR_A.getID(), "11", "06", "2024");
 //    T_MAR_A.wyswietlDane();
-    T_MAR_A.dodajDoGrupy(C_JAN_N, grupa_1);
     K_KAMIL.przypiszDoGrupy(T_MAR_A, grupa_1);
-    K_KAMIL.wyswietlListeKlientow();
+    T_MAR_A.dodajDoGrupy(C_JAN_N, grupa_1);
+    T_MAR_A.dodajDoGrupy(C_KAM_K, grupa_1);
+    grupa_1.wyswietlListeKlientow();
+    T_MAR_A.usun_z_grupy(C_JAN_N,grupa_1);
+    grupa_1.wyswietlListeKlientow();
+    T_MAR_A.treningIndywidualny(C_KAM_K);
+    T_MAR_A.wyswietlListeNaTreningIndywidualny();
 //    grupa_1.readT();
 //    Trener** trn = grupa_1.accessTrainer();
 //    (*trn)->wyswietlDane();
