@@ -51,6 +51,6 @@ void Kierownik::zmienHarmonogramGrupy() {
 }
 
 void Kierownik::dodajOgloszenie(unsigned int ID, const std::string& tytul, const std::string& tresc, const Date& data) {
-    new Post(ID, tytul, tresc, PostType::KIEROWNIK_POST, data);
+    new Post(ID, tytul, this->imie + " " + this->nazwisko, tresc, PostType::KIEROWNIK_POST, data);
 }
 

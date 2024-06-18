@@ -6,8 +6,8 @@
 
 std::vector<Post*> Post::posty;
 
-Post::Post(unsigned int ID, std::string tytul, std::string tresc, PostType typ, Date data)
-: ID(ID), tytul(tytul), tresc(tresc), typ(typ), data(data) {
+Post::Post(unsigned int ID, std::string tytul, std::string autor, std::string tresc, PostType typ, Date data)
+: ID(ID), tytul(tytul), autor(autor), tresc(tresc), typ(typ), data(data) {
     posty.push_back(this);
 }
 
@@ -26,6 +26,7 @@ const std::vector<Post*>& Post::getPosts() {
 void Post::wyswietlPost() const {
     std::cout << "ID: " << ID << std::endl;
     std::cout << "Tytul: " << tytul << std::endl;
+    std::cout << "Autor: " << autor << std::endl;
     std::cout << "Tresc: " << tresc << std::endl;
     std::cout << "Data: " << data.read() << std::endl;
 }

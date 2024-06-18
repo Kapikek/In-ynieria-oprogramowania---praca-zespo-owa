@@ -84,5 +84,5 @@ void Trener::zmienHarmonogramTrenera(std::string day, std::string month, std::st
 }
 
 void Trener::dodajOgloszenie(unsigned int ID, const std::string& tytul, const std::string& tresc, const Date& data) {
-    new Post(ID, tytul, tresc, PostType::TRENER_POST, data);
+    new Post(ID, tytul, this->imie + " " + this->nazwisko, tresc, PostType::TRENER_POST, data);
 }
