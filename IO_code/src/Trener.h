@@ -2,10 +2,12 @@
 #include "Pracownik.h"
 #include "Grupa.h"
 #include "Klient.h"
+#include "Harmonogram.h"
 
 class Trener : public Pracownik {
 private:
     Grupa* grupa;
+    Harmonogram harmonogramTrenera;
     std::vector<Klient*> klienci_indywidualni;
 public:
     Trener() {};
@@ -22,9 +24,11 @@ public:
 
     void wyswietlListeNaTreningIndywidualny();
 
-    void zmienHarmonogramGrupy();
+    void zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string month, std::string year, std::string time);
 
-    void zmienHarmonogramTrenera();
+    void zmienHarmonogramTrenera(std::string day, std::string month, std::string year, std::string time);
+
+    void wyswietlHarmonogram();
 
     friend class Kierownik;
 

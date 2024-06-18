@@ -8,3 +8,4 @@ class Grupa;
 class Trener;
 class Klient;
 class Kierownik;
+class Harmonogram;

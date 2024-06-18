@@ -24,7 +24,25 @@
         }
     };
 
-    struct zmianaEnum{};
+    struct DateTime
+    {
+        std::string day, month, year, time;
+        DateTime()
+        {
 
-    struct DateTime {};
+        }
+
+        DateTime(std::string day, std::string month, std::string year, std::string time)
+        {
+            this->day = day, this->month = month, this->year = year, this->time = time;
+        }
+
+        std::string read()
+        {
+            std::string ret = year + "-" + month + "-" + day + " " + time;
+
+            return ret;
+        }
+
+    };
 

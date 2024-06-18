@@ -2,14 +2,15 @@
 #include "Base.h"
 #include "Klient.h"
 #include "Trener.h"
+#include "Harmonogram.h"
 
-class Trener;
 
 class Grupa {
 private:
     unsigned int ID;
     std::vector<Klient*> lista_klientow;
     Trener* trener_prowadzacy;
+    Harmonogram harmonogramGrupy;
     std::string nazwa;
 public:
     Grupa();
@@ -20,10 +21,14 @@ public:
 
     Trener** accessTrainer();
 
+    Harmonogram* accessSchedule();
+
     void readT();
 
     void wyswietlListeKlientow();
 
     unsigned int wyswietlID();
+
+    void wyswietlHarmonogram();
 };
 
