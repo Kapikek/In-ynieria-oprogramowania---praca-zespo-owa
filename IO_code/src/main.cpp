@@ -33,6 +33,14 @@ int main()
     grupa_1.wyswietlListeKlientow();
     T_MAR_A.treningIndywidualny(C_KAM_K);
     T_MAR_A.wyswietlListeNaTreningIndywidualny();
+
+    T_MAR_A.zmienHarmonogramTrenera("01", "02", "2024", "2h");
+    T_MAR_A.zmienHarmonogramTrenera("03", "02", "2024", "2h");
+    T_MAR_A.wyswietlHarmonogram();
+
+    T_MAR_A.zmienHarmonogramGrupy(grupa_1 ,"11", "02", "2024", "2h");
+    grupa_1.wyswietlHarmonogram();
+
 //    grupa_1.readT();
 //    Trener** trn = grupa_1.accessTrainer();
 //    (*trn)->wyswietlDane();

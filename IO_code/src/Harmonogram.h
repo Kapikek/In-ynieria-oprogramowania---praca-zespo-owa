@@ -1,11 +1,13 @@
 #pragma once
 #include "Base.h"
 
-namespace diagram_System_IO {
-	class Harmonogram {
 
+class Harmonogram {
 	private:
-		DateTime dataStart;
-		DateTime dataKoniec;
-	};
-}
+		std::vector<DateTime> dataStart;
+    public:
+        void dodajTermin(std::string day, std::string month, std::string year, std::string time);
+
+        void wyswietlHarmonogram();
+};
+

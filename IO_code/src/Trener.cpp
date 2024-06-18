@@ -66,12 +66,19 @@ void Trener::wyswietlListeNaTreningIndywidualny()
         item->wyswietlDane();
 }
 
-void Trener::zmienHarmonogramGrupy() {
-	// TODO - implement Trener::zmienHarmonogramGrupy
-	throw "Not yet implemented";
+void Trener::zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string month, std::string year, std::string time) {
+    Harmonogram* harmonogramGrupy = grupa.accessSchedule();
+    Trener** trn = grupa.accessTrainer();
+    if (*trn != this)
+        return;
+    harmonogramGrupy->dodajTermin(day, month, year, time);
 }
 
-void Trener::zmienHarmonogramTrenera() {
-	// TODO - implement Trener::zmienHarmonogramTrenera
-	throw "Not yet implemented";
+void Trener::wyswietlHarmonogram()
+{
+    harmonogramTrenera.wyswietlHarmonogram();
+}
+
+void Trener::zmienHarmonogramTrenera(std::string day, std::string month, std::string year, std::string time) {
+    harmonogramTrenera.dodajTermin(day, month, year, time);
 }

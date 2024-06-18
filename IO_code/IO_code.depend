@@ -64,3 +64,76 @@
 	"Trener.h"
 	"Kierownik.h"
 
+1718727313 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.cpp
+	"Klient.h"
+
+1718727313 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
+	"Base.h"
+	"Konto.h"
+
+1718737876 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\base.h
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"Structs.h"
+
+1718739845 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\structs.h
+	<iostream>
+	<ctime>
+
+1718727313 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
+	"Base.h"
+
+1718727313 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.cpp
+	"Konto.h"
+
+1718727313 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.cpp
+	"Pracownik.h"
+
+1718727313 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.h
+	"Base.h"
+	"Konto.h"
+	"Klient.h"
+
+1718727313 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.cpp
+	"Kierownik.h"
+
+1718727313 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.h
+	"Base.h"
+	"Pracownik.h"
+	"Trener.h"
+	"Grupa.h"
+
+1718740607 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
+	"Pracownik.h"
+	"Grupa.h"
+	"Klient.h"
+	"Harmonogram.h"
+
+1718740803 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.h
+	"Base.h"
+	"Klient.h"
+	"Trener.h"
+	"Harmonogram.h"
+
+1718739056 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\harmonogram.h
+	"Base.h"
+
+1718740637 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.cpp
+	"Trener.h"
+
+1718740793 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.cpp
+	"Grupa.h"
+
+1718740867 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
+	<iostream>
+	"Base.h"
+	"Klient.h"
+	"Grupa.h"
+	"Trener.h"
+	"Kierownik.h"
+
+1718740282 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\harmonogram.cpp
+	"Harmonogram.h"
+

@@ -33,3 +33,13 @@ void Grupa::wyswietlListeKlientow()
  {
      return ID;
  }
+
+ Harmonogram* Grupa::accessSchedule()
+ {
+    return &harmonogramGrupy;
+ }
+
+ void Grupa::wyswietlHarmonogram()
+{
+    harmonogramGrupy.wyswietlHarmonogram();
+}
