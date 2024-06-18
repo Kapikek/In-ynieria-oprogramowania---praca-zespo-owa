@@ -67,22 +67,22 @@
 1718727313 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.cpp
 	"Klient.h"
 
-1718727313 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
+1718745884 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\klient.h
 	"Base.h"
 	"Konto.h"
 
-1718737876 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\base.h
+1718745884 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\base.h
 	<iostream>
 	<string>
 	<vector>
 	<algorithm>
 	"Structs.h"
 
-1718745494 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\structs.h
+1718745884 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\structs.h
 	<iostream>
 	<ctime>
 
-1718727313 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
+1718745884 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.h
 	"Base.h"
 
 1718727313 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\konto.cpp
@@ -91,42 +91,42 @@
 1718727313 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.cpp
 	"Pracownik.h"
 
-1718727313 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.h
+1718745884 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\pracownik.h
 	"Base.h"
 	"Konto.h"
-	"Klient.h"
+	"Post.h"
 
-1718745623 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.cpp
+1718745884 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.cpp
 	"Kierownik.h"
 
-1718745647 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.h
+1718746519 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\kierownik.h
 	"Base.h"
 	"Pracownik.h"
 	"Trener.h"
 	"Grupa.h"
 
-1718745713 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
+1718745884 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.h
 	"Pracownik.h"
 	"Grupa.h"
 	"Klient.h"
 	"Harmonogram.h"
 
-1718740803 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.h
+1718745884 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.h
 	"Base.h"
 	"Klient.h"
 	"Trener.h"
 	"Harmonogram.h"
 
-1718745596 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\harmonogram.h
+1718745884 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\harmonogram.h
 	"Base.h"
 
-1718745688 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.cpp
+1718745884 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\trener.cpp
 	"Trener.h"
 
-1718740793 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.cpp
+1718745884 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\grupa.cpp
 	"Grupa.h"
 
-1718745733 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
+1718746789 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\main.cpp
 	<iostream>
 	"Base.h"
 	"Klient.h"
@@ -136,4 +136,10 @@
 
 1718745605 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\harmonogram.cpp
 	"Harmonogram.h"
+
+1718746470 c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\post.h
+	"Base.h"
+
+1718745884 source:c:\users\sneed\desktop\in-ynieria-oprogramowania---praca-zespo-owa\io_code\src\post.cpp
+	"Post.h"
 

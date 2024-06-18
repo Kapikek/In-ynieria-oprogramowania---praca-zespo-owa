@@ -49,3 +49,8 @@ void Kierownik::zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string
     Harmonogram* harmonogramGrupy = grupa.accessSchedule();
     harmonogramGrupy->dodajTermin(day, month, year, hour, time);
 }
+
+void Kierownik::dodajOgloszenie(unsigned int ID, const std::string& tytul, const std::string& tresc, const Date& data) {
+    new Post(ID, tytul, this->imie + " " + this->nazwisko, tresc, PostType::KIEROWNIK_POST, data);
+}
+

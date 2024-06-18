@@ -16,7 +16,7 @@
             this->day = day, this->month = month, this->year = year;
         }
 
-        std::string read()
+        std::string read() const
         {
             std::string ret = year + "-" + month + "-" + day;
 

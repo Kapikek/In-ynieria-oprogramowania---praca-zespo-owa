@@ -16,7 +16,7 @@ Trener** Grupa::accessTrainer()
     return &trener_prowadzacy;
 }
 
-void Grupa::readT()
+void Grupa::readTrener()
 {
     this->trener_prowadzacy->wyswietlDane();
 }
