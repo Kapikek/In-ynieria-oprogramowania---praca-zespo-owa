@@ -28,5 +28,5 @@ public:
 
     void wyswietlRaport();
 
-    void zmienHarmonogramGrupy();
+    void zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string month, std::string year, std::string hour, std::string time);
 };

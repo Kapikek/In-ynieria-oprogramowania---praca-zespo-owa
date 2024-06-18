@@ -45,7 +45,7 @@ void Kierownik::wyswietlRaport() {
 	throw "Not yet implemented";
 }
 
-void Kierownik::zmienHarmonogramGrupy() {
-	// TODO - implement Kierownik::zmienHarmonogramGrupy
-	throw "Not yet implemented";
+void Kierownik::zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string month, std::string year, std::string hour, std::string time) {
+    Harmonogram* harmonogramGrupy = grupa.accessSchedule();
+    harmonogramGrupy->dodajTermin(day, month, year, hour, time);
 }

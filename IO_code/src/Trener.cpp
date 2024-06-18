@@ -66,12 +66,12 @@ void Trener::wyswietlListeNaTreningIndywidualny()
         item->wyswietlDane();
 }
 
-void Trener::zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string month, std::string year, std::string time) {
+void Trener::zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string month, std::string year, std::string hour, std::string time) {
     Harmonogram* harmonogramGrupy = grupa.accessSchedule();
     Trener** trn = grupa.accessTrainer();
     if (*trn != this)
         return;
-    harmonogramGrupy->dodajTermin(day, month, year, time);
+    harmonogramGrupy->dodajTermin(day, month, year, hour, time);
 }
 
 void Trener::wyswietlHarmonogram()
@@ -79,6 +79,6 @@ void Trener::wyswietlHarmonogram()
     harmonogramTrenera.wyswietlHarmonogram();
 }
 
-void Trener::zmienHarmonogramTrenera(std::string day, std::string month, std::string year, std::string time) {
-    harmonogramTrenera.dodajTermin(day, month, year, time);
+void Trener::zmienHarmonogramTrenera(std::string day, std::string month, std::string year, std::string hour, std::string time) {
+    harmonogramTrenera.dodajTermin(day, month, year, hour, time);
 }

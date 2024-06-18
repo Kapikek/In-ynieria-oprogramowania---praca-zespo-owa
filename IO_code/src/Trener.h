@@ -24,9 +24,9 @@ public:
 
     void wyswietlListeNaTreningIndywidualny();
 
-    void zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string month, std::string year, std::string time);
+    void zmienHarmonogramGrupy(Grupa& grupa, std::string day, std::string month, std::string year, std::string hour, std::string time);
 
-    void zmienHarmonogramTrenera(std::string day, std::string month, std::string year, std::string time);
+    void zmienHarmonogramTrenera(std::string day, std::string month, std::string year, std::string hour, std::string time);
 
     void wyswietlHarmonogram();
 
