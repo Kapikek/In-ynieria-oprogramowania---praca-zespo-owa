@@ -3,4 +3,13 @@ project(IO_code)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(IO_code main.cpp)
+set(SOURCE_FILES
+        main.cpp
+        Grupa.cpp
+        Konto.cpp
+        Klient.cpp
+        Trener.cpp
+        Kierownik.cpp
+)
+
+add_executable(IO_code ${SOURCE_FILES})
