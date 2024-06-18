@@ -8,6 +8,7 @@
 unsigned int Konto::ID_cnt = 0;
 std::vector<Klient*> Klient::klienci;
 std::vector<Wniosek*> Wniosek::wnioski;
+
 int main()
 {
     int i = 0;
@@ -20,7 +21,7 @@ int main()
     C_JAN_N.stworzKonto("Jan", "Nowak", "ul. Mazowiecka 15", "Nowak.J@fakemail.com", "111 222 333", "Nowak2432523", "*********");
     C_TOM_K.stworzKonto("Tom", "Kier", "2015 Flower Ave.", "thomas.k@fakermail.com", "22 33 44 777", "TK2122", "********");
     C_KAM_K.stworzKonto("Kamil", "Bier", "ul. Zolnierska 111", "kamil.k@fakermail.com", "111 222 333", "KK2122", "********");
-    K_KAMIL.dodajPracownika(T_MAR_A, "Marcin", "Antoni", "ul. Bohaterów Warszawy 2", "marcin.mar@fakemail.com", "3333 22 11 00", "M_A", "*********");
+    K_KAMIL.dodajPracownika(T_MAR_A, "Marcin", "Antoni", "ul. Bohaterï¿½w Warszawy 2", "marcin.mar@fakemail.com", "3333 22 11 00", "M_A", "*********");
     C_JAN_N.dolaczDoGrupy(1, "05", "06", "2024");
     C_KAM_K.dolaczDoGrupy(1, "04", "06", "2024");
     C_KAM_K.treningIndywidualny(T_MAR_A.getID(), "11", "06", "2024");
@@ -41,13 +42,23 @@ int main()
     T_MAR_A.zmienHarmonogramGrupy(grupa_1 ,"11", "02", "2024", "2h");
     grupa_1.wyswietlHarmonogram();
 
-//    grupa_1.readT();
-//    Trener** trn = grupa_1.accessTrainer();
-//    (*trn)->wyswietlDane();
-//    K_KAMIL.zablokujKlienta(C_JAN_N);
-//    std::cout << C_JAN_N.wypiszStatus() << " " << C_TOM_K.wypiszStatus() << std::endl;
-//    Wniosek w = K_JAN_N.getWniosek(); //-- this works
-//    std::cout << w.data_zlozenia.read() << std::endl;
+    grupa_1.readTrener();
+    Trener** trn = grupa_1.accessTrainer();
+    (*trn)->wyswietlDane();
+    K_KAMIL.zablokujKlienta(C_JAN_N);
+    std::cout << C_JAN_N.wypiszStatus() << " " << C_TOM_K.wypiszStatus() << std::endl;
+
+    C_JAN_N.dolaczDoGrupy(1, "18", "06", "2024");
+    std::vector<Wniosek>* w = C_JAN_N.getWniosek(); //-- this works
+    std::cout << w->back().data_zlozenia.read() << std::endl;
+
+
+    T_MAR_A.dodajOgloszenie(1, "Ogloszenie", "Tresc", Date("01", "01", "2024"));
+    K_KAMIL.dodajOgloszenie(2, "Ogloszenie", "Tresc", Date("01", "01", "2024"));
+    const auto& posts = Post::getPosts();
+    if (!posts.empty()) {
+        posts[0]->wyswietlPost();
+    }
 
     return 0;
 }

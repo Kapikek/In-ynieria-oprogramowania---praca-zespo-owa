@@ -29,4 +29,6 @@ public:
     void wyswietlRaport();
 
     void zmienHarmonogramGrupy();
+
+    void dodajOgloszenie(unsigned int ID, const std::string& tytul, const std::string& tresc, const Date& data) override;
 };

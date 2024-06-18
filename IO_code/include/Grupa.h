@@ -23,7 +23,7 @@ public:
 
     Harmonogram* accessSchedule();
 
-    void readT();
+    void readTrener();
 
     void wyswietlListeKlientow();
 

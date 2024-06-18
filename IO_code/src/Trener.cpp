@@ -82,3 +82,7 @@ void Trener::wyswietlHarmonogram()
 void Trener::zmienHarmonogramTrenera(std::string day, std::string month, std::string year, std::string time) {
     harmonogramTrenera.dodajTermin(day, month, year, time);
 }
+
+void Trener::dodajOgloszenie(unsigned int ID, const std::string& tytul, const std::string& tresc, const Date& data) {
+    new Post(ID, tytul, tresc, PostType::TRENER_POST, data);
+}

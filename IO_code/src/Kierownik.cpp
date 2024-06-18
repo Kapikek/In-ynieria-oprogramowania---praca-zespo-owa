@@ -49,3 +49,8 @@ void Kierownik::zmienHarmonogramGrupy() {
 	// TODO - implement Kierownik::zmienHarmonogramGrupy
 	throw "Not yet implemented";
 }
+
+void Kierownik::dodajOgloszenie(unsigned int ID, const std::string& tytul, const std::string& tresc, const Date& data) {
+    new Post(ID, tytul, tresc, PostType::KIEROWNIK_POST, data);
+}
+

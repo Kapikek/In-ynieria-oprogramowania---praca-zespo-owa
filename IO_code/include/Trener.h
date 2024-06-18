@@ -30,6 +30,8 @@ public:
 
     void wyswietlHarmonogram();
 
+    void dodajOgloszenie(unsigned int ID, const std::string& tytul, const std::string& tresc, const Date& data) override;
+
     friend class Kierownik;
 
 };
